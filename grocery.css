@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin:auto;
+	text-decoration: none;
+}
+
+nav ul button{
+	padding: 12px;
+    border: 0;
+    background-color: #aad236;
+    border-radius: 5px;
+}
+
+nav ul button:hover{
+	border: 1px solid #aad236;
+	background-color: white;
+	transition: all .3s ease;
+}
+
+li{
+	padding: 12px; 
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+}
+
+
+li:first-child{
+	margin-right: auto;
+}
+
+/*end header*/
+
+#rasm{
+	width: 100%;
+	height: 90vh;
+}
+
+#rasm .parent{
+	width: 100%;
+	height: 90vh;
+	background-image: url(https://mobirise.com/extensions/organicamp/assets/images/background10.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	filter: grayscale(70%);
+}
+
+#rasm .parent h1{
+	padding-top: 300px;
+	font-size: 40px; 
+}
+
+#rasm .parent p{
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+/*end rasm*/
+
+#nok{
+	width: 100vw;
+	height: 60vh;
+}
+
+#nok .parent{
+	display: flex;
+}
+
+#nok .parent .child h1{
+	padding-top: 100px;
+	font-size: 30px;
+	color: white;
+}
+
+#nok .parent .child p{
+	padding-top: 20px;
+	font-size: 17px;
+	color: white;
+}
+
+#nok .parent .child button{
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 8px;
+    color: white;
+    background-color: #333333;
+    transition: all .3s ease;
+}
+
+#nok .parent .child button:hover{
+	background-color: transparent;
+	border: 1px solid #333333;
+}
+
+#nok .parent .child{
+	height: 60vh;
+	width: calc(100%/4);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.child_1{
+	background-image: url(https://mobirise.com/extensions/organicamp/assets/images/13.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.child_2{
+	background-image: url(https://mobirise.com/extensions/organicamp/assets/images/14.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.child_3{
+    background-image: url(https://mobirise.com/extensions/organicamp/assets/images/15.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.child_4{
+    background-image: url(https://mobirise.com/extensions/organicamp/assets/images/16.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/* end nok*/
+
+
+#ananas{
+	width: 100vw;
+	height: 80vh;
+}
+
+#ananas .parent{
+	display: flex;
+	width: 100vw;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#ananas .child{
+	width: 40vw;
+	height: 70vh;
+}
+
+#ananas .parent .child_5{
+	background-image: url(https://mobirise.com/extensions/organicamp/assets/images/12.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.fresh{
+	padding-top: 80px;
+}
+
+#ananas .parent .child_6 ul{
+	display: block;
+}
+
+#ananas .parent .child_6 h3{
+	padding-top: 80px;
+	color: #aad236;
+}
+
+.child_6 i{
+	padding: 12px;
+	border-radius: 50%;
+	background-color: #aad236;
+}
+.mini-li {
+	display: flex;
+}
+.mini {
+	margin: 5px;
+}
+.child_6 i{
+	transition: all .4s ease;
+	color: white;
+}
+.child_6 i:hover{
+padding: 18px;
+}
+
+/*end ananas*/
+
+#grad{
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+#grad .parent{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+#grad .parent .child_7 img{
+	width: 640px;
+	height: 480px;
+	margin-left: 150px;
+	margin-top: 130px;
+	margin-right: 30px;
+}
+
+.child_8 h1{
+	margin-top: 290px;
+}
+
+#grad .parent p{
+	margin-top: 20px;
+	font-size: 20px;
+}
